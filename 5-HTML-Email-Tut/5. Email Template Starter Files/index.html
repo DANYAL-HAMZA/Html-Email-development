@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>w3newbie HTML Email</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;
+		}
+		.wrapper{
+			width: 100%;
+			background-color: #f6f6fc;
+			table-layout: fixed;
+			padding-bottom: 40px;
+		}
+		.outer{
+			max-width: 600px;
+			background-color: #ffffff;
+			border-left: 1px solid #E5ECEE;
+			border-right: 1px solid #E5ECEE;
+		}
+		.main{
+			margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+		.social{
+			padding-right: 5px;
+		}
+		.three-columns{
+			text-align: center;
+			padding-top: 40px;
+			padding-bottom: 30px;
+			font-size: 0;
+		}
+		.three-columns .column{
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.padding{
+			padding: 15px;
+		}
+		.content{
+			font-size: 15px;
+			line-height: 20px;
+		}
+		.btn{
+			padding: 10px 20px;
+			background-color: #378BDA;
+			border-radius: 5px;
+			text-decoration: none;
+			color: #ffffff;
+		}
+/*we use the !important keyword in order for the specified css in the media query to overide the ones in the main css style*/
+		@media screen and (max-width: 600px) { 
+			img.third-img-last{
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+			.padding{
+				padding-left: 0!important;
+				padding-right: 0!important;
+			}
+		}
+		@media screen and (max-width: 400px) { 
+			img.third-img{
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+		}
+	</style>
+</head>
+<body>
+	<center class="wrapper">
+		<div class="outer">
+			<table class="main" align="center">
+				<tr>
+					<td>
+						<table width="100%">
+							<tr>
+								<td style="background-color: #378BDA; padding: 10px; text-align: center;">
+									<a href="#" class="social"><img src="img/white-facebook.png" alt="" width="30"></a>
+									<a href="#" class="social"><img src="img/white-twitter.png" alt="" width="30"></a>
+									<a href="#" class="social"><img src="img/white-youtube.png" alt="" width="30"></a>
+									<a href="#" class="social"><img src="img/white-linkedin.png" alt="" width="30"></a>
+									<a href="#" class="social"><img src="img/white-instagram.png" alt="" width="30"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table width="100%">
+							<tr>
+								<td style="padding: 10px;text-align: center;">
+								<a href="#"><img src="img/w3newbie.png" alt="logo" width="180"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#"><img src="img/1200x700.jpg" alt="" width="600px" style="max-width: 100%;"></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table width="100%">
+							<tr>
+								<td class="three-columns">
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href="#"><img class="third-img" src="img/380x280.jpg" alt="" style="max-width: 150px;"></a>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 10px;">
+															<p style="font-weight: bold;font-size: 17px;">APPLE WATCH</p>
+															<p>Responsive email templates that you can build around to master email develipment</p>
+															<a href="#" class="btn">Learn more...</a>
+
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+									</table>
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href="#"><img class="third-img" src="img/380x280-3.jpg" alt="" style="max-width: 150px;"></a>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 10px;">
+															<p style="font-weight: bold;font-size: 17px;">WATCH BANDS</p>
+															<p>Responsive email templates that you can build around to master email develipment</p>
+															<a href="#" class="btn">Learn more...</a>
+
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+									</table>
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href="#"><img class="third-img-last" src="img/380x280-2.jpg" alt="" style="max-width: 150px;"></a>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 10px;">
+															<p style="font-weight: bold;font-size: 17px;">EAR PODS</p>
+															<p>Responsive email templates that you can build around to master email develipment</p>
+															<a class="btn" href="#">Learn more...</a>
+
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color: #378BDA; height: 10; border-radius: 15px 0 0 15px;"></td>
+				</tr>
+				<tr>
+					<td style="background-color: #efefef;">
+						<table width="100%">
+							<tr>
+								<td style="padding: 20px; text-align: center;padding-bottom: 10px;">
+									<a href="#"><img src="img/w3newbie.png" alt="" width="160"></a>
+									<p style="font-size: 16px;margin-top: 18px;margin-bottom: 10px;">w3new Html Email</p>
+									<p style="font-size: 16px;margin-top: 18px;margin-bottom: 10px;">Accra, Ghana, West Africa</p>
+									<p><a href="mailto:danyalhamzah@gmail.com">danyalhamzah@gmail.com</a></p>
+									<p><a href="tel:+233551683323">+233 551 683 323</a></p>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color: #378BDA; height: 20; border-radius: 15px 0 0 15px;"></td>
+				</tr>
+
+			</table>
+		</div>
+
+	</center>
+
+</body>
+</html>
+
